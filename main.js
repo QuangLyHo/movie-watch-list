@@ -38,7 +38,7 @@ const render = async (data) => {
 function display(msg) {
     movieReturnEl.innerHTML = `
         <div class="start-exploring-placeholder" id="start-exploring-placeholder">
-            <img src="/images/film.svg">
+            <img src="./images/film.svg">
             <h3 id="display-msg">${msg}</h3>
         </div>`
 }
