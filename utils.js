@@ -37,7 +37,7 @@ const getMovieHtml = (data, fromApi) => {
 
     let {title, runtime, plot, genre, rating, poster} = data
     if (poster == 'N/A') {
-        poster = '/images/star-poster.svg'
+        poster = './images/star-poster.svg'
     }
     return `
         <div class="movie-card">
