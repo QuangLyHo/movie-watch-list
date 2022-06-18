@@ -106,7 +106,7 @@ header {
 
 .header-bg-img {
     background-color: #404040;
-    background-image: url('./images/header.png');
+    background-image: url('t/images/header.png');
     background-blend-mode: multiply;
     background-position: top 20% center;
     background-size: cover;
